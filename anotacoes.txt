@@ -1,0 +1,17 @@
+npm init -y: gera o package.json.
+Após o comando, é interessante adicionar:
+	* "type": module,
+	* "main": "build/index.js"
+
+npm install -D: instala dependências em desenvolvimento.
+É importante baixar:
+	* typescript
+	* tsx
+	* @types/node -- essa é a tipagem do node
+
+É importante adicionar esses scripts ao package.json:
+    * "build": "tsc",
+    * "dev": "tsx src/index.ts",
+    * "start": "node ."
+
+O arquivo tsconfig.json é um arquivo para que o typescript funcione corretamente.

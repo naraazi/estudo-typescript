@@ -1,0 +1,29 @@
+{
+    "name": "estudo-typescript",
+    "version": "1.0.0",
+    "description": "Estudo de Typescript com NodeJS.",
+    "main": "build/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "dev": "tsx src/index.ts",
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/naraazi/estudo-typescript.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/naraazi/estudo-typescript/issues"
+    },
+    "homepage": "https://github.com/naraazi/estudo-typescript#readme",
+    "devDependencies": {
+        "@types/node": "^25.0.3",
+        "tsx": "^4.21.0",
+        "typescript": "^5.9.3"
+    }
+}

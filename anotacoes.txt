@@ -78,3 +78,15 @@ Os scripts que são interessantes existir são:
     "exclude": ["node_modules"] --> garante que o compilador nunca tente processar as bibliotecas externas, evitando
                                         erros e lentidão
 }
+
+Quando há a necessidade de instalar pacotes, sempre uma correção é necessária.
+Por exemplo:   
+    * npm install next@13.1.6 react@18.2.0 react-dom@18.2.0: em JS apenas isso bastaria;
+    * npm install -D typescript @types/node @types/react @types/react-dom: mas como é TS, isso aqui também deve ser
+        instalado.
+
+O comando que inicia o tsconfig.json automaticamente é: npx tsc --init
+    * npx: como foi instalado o typescript como uma dependência de desenvolvimento (-D), o comando tsc não está
+        disponível globalmente no terminal. O npx localiza o executável dentro da pasta node_modules e o executa.
+    * tsc --init: diz ao compilador do TypeScript: "Crie um arquivo de configuração inicial baseado nos padrões
+        recomendados".

@@ -9,7 +9,7 @@ Ele fica assim:
     "version": "1.0.0", --> controla a versão atual do software
     "description": "Estudo de Typescript com NodeJS.", --> resumo do objetivo do projeto
     "main": "build/index.js", --> define qual arquivo será executado quando alguém importar seu pacote ou quando você
-                                    rodar o comando de início após a compilação
+                                    rodar o comando de início após a compilação -- executa scripts NodeJS puros.
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "tsc", --> invoca o compilador do TypeScript para transformar seus arquivos .ts em .js dentro da pasta

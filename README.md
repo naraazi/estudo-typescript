@@ -15,7 +15,7 @@ Após o comando, é interessante tornar o package.json dessa forma:
     "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
-    "start": "node ." --> executa o projeto compilado (definido em main) usando NodeJS puro.
+    "start": "node ."
     },
     "repository": {
     "type": "git",

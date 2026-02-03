@@ -1,6 +1,6 @@
 /**
  * Use interface:
- * - Quando estiver modelando objetos (shape de dados);7
+ * - Quando estiver modelando objetos (shape de dados);
  * - Quando é necessário extender a forma natural (OO);
  * - Quando é necessário ter declaration merging (junta (“mescla”) duas ou mais declarações com o mesmo nome e
  * 		transforma em uma só).
